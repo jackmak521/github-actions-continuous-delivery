@@ -1,8 +1,8 @@
 name: Staging deployment
 
-on: 
-  pull_request:
-    types: created
+on:
+  label:
+    types: [created]
 
 jobs:
   build:
